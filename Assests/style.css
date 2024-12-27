@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+/* ================ Toggle Container ================ */
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+/* ================ Toggle Head ================ */
+
+.toggle-head{
+    width: max-content;
+    margin-top: 20px;
+    width: 500px;
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 5px 5px 0px 0px;
+    font-family: poppins;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ================ Toggle Body ================ */
+
+.toggle-body{
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(243, 243, 243);
+    color: black;
+    height: max-content;
+    border-radius: 0px 0px 5px 5px;
+    font-family: poppins;
+    display: none;
+}
+
+/* ================ Toggle Body Active Class ================ */
+
+.toggle-active{
+    display: block;
+}
